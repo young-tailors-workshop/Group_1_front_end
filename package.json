@@ -8,6 +8,7 @@
   "dependencies": {
     "next": "^8.0.3",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "semantic-ui-react": "^0.86.0"
   }
 }

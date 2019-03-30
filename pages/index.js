@@ -5,9 +5,14 @@ import Nav from '../components/nav'
 
 const Home = () => (
   <div>
-    <Head title="Home" />
+    <Head>
+      <title>Initial</title>
+      <link
+        rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css"
+      />
+    </Head>
     <Nav />
-
     <div className="hero">
       <h1 className="title">Welcome to Next!</h1>
       <p className="description">
