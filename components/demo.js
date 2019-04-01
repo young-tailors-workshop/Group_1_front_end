@@ -50,14 +50,12 @@ export default () => (
         <Container>
           <Menu inverted pointing secondary size="large">
             <Menu.Item as="a" active>Home</Menu.Item>
-            <Menu.Item as="a">Work</Menu.Item>
-            <Menu.Item as="a">Company</Menu.Item>
-            <Menu.Item as="a">Careers</Menu.Item>
             <Menu.Item position="right">
-              <Button as="a" inverted>Log in</Button>
-              <Button as="a" inverted style={{ marginLeft: "0.5em" }}>
+              <Link href="login"><Button as="a" inverted>Log in</Button></Link>
+              <Link href="signup"><Button as="a" inverted style={{ marginLeft: "0.5em" }}>
                 Sign Up
               </Button>
+              </Link>
             </Menu.Item>
           </Menu>
         </Container>
